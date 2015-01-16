@@ -23,6 +23,7 @@ let g:rspec_command = "Dispatch rspec --color {spec}"
 filetype plugin indent on
 
 runtime macros/matchit.vim                       " vim-textobj-rubyblock
+
 "Color
 colorscheme jellybeans
 
