@@ -4,9 +4,11 @@ set encoding=utf-8
 execute pathogen#infect()
 
 "Start Nerdtree if vim opens to empty file
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+"Enable mouse
+set mouse=a
 "Map Nerdtree to CTRL + N
 map <C-n> :NERDTreeToggle<CR>
 
