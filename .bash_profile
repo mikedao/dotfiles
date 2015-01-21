@@ -15,6 +15,7 @@ source "$HOME/.rvm/scripts/rvm"
 # Git aliases
 alias gs="git status"
 alias gd="git diff --patience --ignore-space-change"
+alias gcb="git checkout -b"
 alias gc="git checkout"
 alias gb="git branch"
 alias ga="git add"
@@ -30,6 +31,10 @@ alias cdd="cd ~/Desktop"
 
 # Other aliases
 alias vimrc="vim ~/.vimrc"
+alias aliases="vim ~/.bash_profile"
+
+# Rails aliases
+alias yolo="rake db:drop db:create db:migrate db:seed"
 
 # fancy ls command
 # -l  long format
