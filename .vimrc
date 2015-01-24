@@ -9,6 +9,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "Enable mouse
 set mouse=a
+
 "Map Nerdtree to CTRL + N
 map <C-n> :NERDTreeToggle<CR>
 

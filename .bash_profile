@@ -24,7 +24,7 @@ alias gp="git push"
 alias gcm="git commit -m "
 alias gi="git init"
 alias gpom="git push origin master"
-
+alias gbd="git branch -D "
 # Navigation  aliases
 alias cdt="cd ~/Turing"
 alias cdd="cd ~/Desktop"
