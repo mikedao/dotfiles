@@ -44,7 +44,8 @@ alias yolo="rake db:drop db:create db:migrate db:seed"
 # -o suppress group
 # -h humanize sizes
 # -q print nongraphic chars as question marks
-alias l="ls -lFGgohq"
+# -a print all items
+alias l="ls -laFGgohq"
 
 # give the fullpaths of files passed in argv or piped through stdin
 function fullpath {
