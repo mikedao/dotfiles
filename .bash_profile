@@ -45,7 +45,7 @@ alias yolo="rake db:drop db:create db:migrate db:seed"
 # -o suppress group
 # -h humanize sizes
 # -q print nongraphic chars as question marks
-# -a print all items
+# -a print all hidden items
 alias l="ls -laFGgohq"
 
 # give the fullpaths of files passed in argv or piped through stdin
@@ -99,7 +99,7 @@ alias be="bundle exec"
     ps1="${ps1}\n\$ "
 
     # set prompt output
-    PS1="[\w ] 🌀  "
+    PS1="[\w ] [$git_branch] 🌀  "
   }
 
   PROMPT_COMMAND='build_mah_prompt'
