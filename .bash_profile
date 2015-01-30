@@ -28,6 +28,7 @@ alias gbd="git branch -D "
 # Navigation  aliases
 alias cdt="cd ~/Turing"
 alias cdd="cd ~/Desktop"
+alias cdp="cd ~/Turing/projects"
 
 # Other aliases
 alias vimrc="vim ~/.vimrc"
