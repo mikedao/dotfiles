@@ -2,7 +2,7 @@
 source ~/.git-completion.bash
 
 # enables 'git hub'
-#eval "$(hub alias -s)"
+eval "$(hub alias -s)"
 
 # Load rvm so you can access Ruby
 source "$HOME/.rvm/scripts/rvm"
@@ -25,6 +25,9 @@ alias gcm="git commit -m "
 alias gi="git init"
 alias gpom="git push origin master"
 alias gbd="git branch -D "
+alias gcm="git checkout master"
+alias pull="git pull"
+
 # Navigation  aliases
 alias cdt="cd ~/Turing"
 alias cdd="cd ~/Desktop"
@@ -35,7 +38,7 @@ alias vimrc="vim ~/.vimrc"
 alias aliases="vim ~/.bash_profile"
 
 # Rails aliases
-alias yolo="rake db:drop db:create db:migrate db:seed"
+alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
 
 # fancy ls command
 # -l  long format
