@@ -39,6 +39,11 @@ alias aliases="vim ~/.bash_profile"
 # Rails aliases
 alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
 
+# Heroku Aliases
+alias hc="heroku create"
+alias hp="git push heroku master"
+alias ho="heroku open"
+
 # fancy ls command
 # -l  long format
 # -F  / after dirs, * after exe, @ after symlink
