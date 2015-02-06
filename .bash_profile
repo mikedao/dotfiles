@@ -17,6 +17,7 @@ alias gs="git status"
 alias gd="git diff --patience --ignore-space-change"
 alias gcb="git checkout -b"
 alias gc="git checkout"
+alias gcom="git checkout master"
 alias gb="git branch"
 alias ga="git add"
 alias gh="git hist"
@@ -38,6 +39,7 @@ alias aliases="vim ~/.bash_profile"
 
 # Rails aliases
 alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
+alias bert="bundle exec rake test"
 
 # Heroku Aliases
 alias hc="heroku create"

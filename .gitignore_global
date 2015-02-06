@@ -43,3 +43,7 @@ Thumbs.db
 # Files with Keys #
 ###################
 # secrets.yml
+
+# Ignore Spring Files #
+#######################
+/spring/*.pid
