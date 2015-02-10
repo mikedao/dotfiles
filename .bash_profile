@@ -32,6 +32,9 @@ alias pull="git pull"
 alias cdt="cd ~/Turing"
 alias cdd="cd ~/Desktop"
 alias cdp="cd ~/Turing/projects"
+alias cd1="cd ~/Turing/1module"
+alias cd2="cd ~/Turing/2module"
+alias cd3="cd ~/Turing/3module"
 
 # Other aliases
 alias vimrc="vim ~/.vimrc"
