@@ -66,10 +66,10 @@ autocmd BufWinLeave * call clearmatches()
 " set leader key to comma
 let mapleader = ","
 " RSpec.vim mappings
- map <Leader>t :call RunCurrentSpecFile()<CR>
- map <Leader>s :call RunNearestSpec()<CR>
- map <Leader>l :call RunLastSpec()<CR>
- map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 " hint to keep lines short
 if exists('+colorcolumn')
@@ -109,7 +109,7 @@ set backupskip=/tmp/*,/private/tmp/*"    " can edit crontab files
 
 "" Convenience
 nnoremap <Leader>w :w!<CR>;                               " Fuck you x1million, vim (http://stackoverflow.com/questions/26070153/vim-wont-write-file-without-a-sometimes-e13)
-
+map <leader>i mmgg=G`m<CR>
 " replaces %/ with current directory, and %% with current file
 cmap %/ <C-R>=expand("%:p:h")."/"<CR>
 cmap %% <C-R>=expand("%")<CR>
