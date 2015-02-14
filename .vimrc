@@ -108,8 +108,9 @@ set updatecount=0                        " Don't try to write swapfiles after so
 set backupskip=/tmp/*,/private/tmp/*"    " can edit crontab files
 
 "" Convenience
-nnoremap <Leader>w :w!<CR>;                               " Fuck you x1million, vim (http://stackoverflow.com/questions/26070153/vim-wont-write-file-without-a-sometimes-e13)
-map <leader>i mmgg=G`m<CR>
+nnoremap <Leader>w :w!<CR>;
+map <leader>i mmgg=G`m<CR>                " indent entire page
+
 " replaces %/ with current directory, and %% with current file
 cmap %/ <C-R>=expand("%:p:h")."/"<CR>
 cmap %% <C-R>=expand("%")<CR>
