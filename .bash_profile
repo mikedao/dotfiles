@@ -49,6 +49,9 @@ alias hc="heroku create"
 alias hp="git push heroku master"
 alias ho="heroku open"
 
+# Tmux aliases
+alias tn="tmux new -s"
+
 # fancy ls command
 # -l  long format
 # -F  / after dirs, * after exe, @ after symlink
