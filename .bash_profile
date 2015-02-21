@@ -118,4 +118,3 @@ alias be="bundle exec"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
-
