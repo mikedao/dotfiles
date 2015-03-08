@@ -4,8 +4,8 @@ set encoding=utf-8
 execute pathogen#infect()
 
 "Start Nerdtree if vim opens to empty file
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "Enable mouse
 set mouse=a
@@ -28,7 +28,7 @@ filetype plugin indent on
 runtime macros/matchit.vim                       " vim-textobj-rubyblock
 
 "Color
-colorscheme jellybeans
+colorscheme railscasts
 
 "Change timeout length to remove airline latency
 set timeoutlen=150
