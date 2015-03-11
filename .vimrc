@@ -13,6 +13,9 @@ set mouse=a
 "Map Nerdtree to CTRL + N
 map <C-n> :NERDTreeToggle<CR>
 
+" Invisible characters
+set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_,extends:❯,precedes:❮
+
 "CTRL P
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
@@ -28,6 +31,7 @@ filetype plugin indent on
 runtime macros/matchit.vim                       " vim-textobj-rubyblock
 
 "Color
+set background=dark
 colorscheme railscasts
 
 "Change timeout length to remove airline latency
@@ -63,16 +67,17 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
-" set leader key to comma
+" set leader key to space
 let mapleader = " "
+
+" remove search highlighting
+nnoremap <leader>h :noh<cr>
+
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
-
-" Command T
-map <Leader>r :call :commandT <CR>
 
 " hint to keep lines short
 if exists('+colorcolumn')
@@ -112,8 +117,10 @@ set backupskip=/tmp/*,/private/tmp/*"    " can edit crontab files
 
 "" Convenience
 nnoremap <Leader>w :w!<CR>;
-map <leader>i mmgg=G`m<CR>                " indent entire page
-
+nnoremap <Leader>q :q!<CR>;
+nnoremap <leader>i mzgg=G`z;               " indent entire page
+nnoremap <leader><leader> :bn<cr>
+nnoremap <leader><leader><leader> :bp<cr>
 " replaces %/ with current directory, and %% with current file
 cmap %/ <C-R>=expand("%:p:h")."/"<CR>
 cmap %% <C-R>=expand("%")<CR>
@@ -123,7 +130,3 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
-
-
-
-
