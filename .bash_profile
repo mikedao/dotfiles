@@ -39,6 +39,7 @@ alias cd3="cd ~/Turing/3module"
 # Other aliases
 alias vimrc="vim ~/.vimrc"
 alias aliases="vim ~/.bash_profile"
+alias spell="aspell -c"
 
 # Rails aliases
 alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
