@@ -52,6 +52,9 @@ alias ho="heroku open"
 
 # Tmux aliases
 alias tn="tmux new -s"
+alias tl="tmux ls"
+alias tc="tmux a -t "
+alias tmuxc="vim ~/.tmux.conf"
 
 # fancy ls command
 # -l  long format

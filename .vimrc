@@ -13,6 +13,9 @@ set mouse=a
 "Map Nerdtree to CTRL + N
 map <C-n> :NERDTreeToggle<CR>
 
+" Set vimresizing for Tmux awesomeness
+autocmd VimResized * :wincmd =
+
 " Invisible characters
 set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_,extends:❯,precedes:❮
 
