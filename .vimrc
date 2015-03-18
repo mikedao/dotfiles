@@ -82,6 +82,9 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" Clear all CtrlP Caches
+map <Leader>r :ClearAllCtrlPCaches<CR>
+
 " hint to keep lines short
 if exists('+colorcolumn')
   set colorcolumn=80
