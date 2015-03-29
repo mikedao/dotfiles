@@ -35,11 +35,13 @@ alias cdp="cd ~/Turing/projects"
 alias cd1="cd ~/Turing/1module"
 alias cd2="cd ~/Turing/2module"
 alias cd3="cd ~/Turing/3module"
+alias cd4="cd ~/Turing/4module"
 
 # Other aliases
 alias vimrc="vim ~/.vimrc"
 alias aliases="vim ~/.bash_profile"
 alias spell="aspell -c"
+alias cov="open coverage/index.html"
 
 # Rails aliases
 alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
