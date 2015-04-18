@@ -40,7 +40,7 @@ colorscheme railscasts
 "Change timeout length to remove airline latency
 set timeoutlen=150
 
-"" Basic editor behaviour
+" Basic editor behaviour
 filetype plugin indent on       " load file type plugins + indentation
 set t_Co=256                    " Explicitly tell vim that the terminal supports 256 colors
 syntax enable                   " highlighting and shit
@@ -125,8 +125,6 @@ set backupskip=/tmp/*,/private/tmp/*"    " can edit crontab files
 nnoremap <Leader>w :w!<CR>;
 nnoremap <Leader>q :q!<CR>;
 nnoremap <leader>i mzgg=G`z;               " indent entire page
-nnoremap <leader><leader> :bn<cr>
-nnoremap <leader><leader><leader> :bp<cr>
 " replaces %/ with current directory, and %% with current file
 cmap %/ <C-R>=expand("%:p:h")."/"<CR>
 cmap %% <C-R>=expand("%")<CR>

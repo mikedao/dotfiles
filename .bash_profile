@@ -12,6 +12,9 @@ source "$HOME/.rvm/scripts/rvm"
   cd "$(dirname $(gem which $1))"
 }
 
+
+export NVM_DIR="/Users/mdao/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # Git aliases
 alias gs="git status"
 alias gd="git diff --patience --ignore-space-change"
