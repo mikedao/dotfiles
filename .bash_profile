@@ -1,17 +1,15 @@
 # git auto-completion
 source ~/.git-completion.bash
-
+source ~/.profile
 # enables 'git hub'
 # eval "$(hub alias -s)"
 
 # Load rvm so you can access Ruby
-source "$HOME/.rvm/scripts/rvm"
 
 # Take you to the dir of a file in a gem. e.g. `2gem rspec`
 2gem () {
   cd "$(dirname $(gem which $1))"
 }
-
 
 export NVM_DIR="/Users/mdao/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -39,6 +37,9 @@ alias cd1="cd ~/Turing/1module"
 alias cd2="cd ~/Turing/2module"
 alias cd3="cd ~/Turing/3module"
 alias cd4="cd ~/Turing/4module"
+alias teach="cd ~/teaching"
+alias today="cd ~/teaching/today/source/outlines"
+alias roster="cd ~/teaching/roster/data"
 
 # Other aliases
 alias vimrc="vim ~/.vimrc"
@@ -86,6 +87,11 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 # Shortcut for bundle exec
 alias be="bundle exec"
 
+# Emacs
+em () {
+    open -a /usr/local/Cellar/emacs/24.5/Emacs.app/Contents/MacOS/Emacs $*
+  }
+
 # Prompt
   function parse_git_branch {
     branch=`git rev-parse --abbrev-ref HEAD 2>/dev/null`
@@ -127,3 +133,5 @@ alias be="bundle exec"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
