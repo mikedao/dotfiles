@@ -47,8 +47,3 @@ Thumbs.db
 # Ignore Spring Files #
 #######################
 /spring/*.pid
-
-
-# Ignore RubyMine Files #
-#######################
-.idea/
