@@ -1,10 +1,11 @@
-# git auto-completion
-source ~/.git-completion.bash
-source ~/.profile
+eval "$(rbenv init -)"
+
+set -o vi
+# gives you vi editing at commandline
+
 # enables 'git hub'
 # eval "$(hub alias -s)"
 
-# Load rvm so you can access Ruby
 
 # Take you to the dir of a file in a gem. e.g. `2gem rspec`
 2gem () {
@@ -46,6 +47,7 @@ alias vimrc="vim ~/.vimrc"
 alias aliases="vim ~/.bash_profile"
 alias spell="aspell -c"
 alias cov="open coverage/index.html"
+alias weather="curl -s wttr.in/denver"
 
 # Rails aliases
 alias yolo="bundle exec rake db:drop db:create db:migrate db:seed"
