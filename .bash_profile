@@ -136,4 +136,4 @@ em () {
 
   PROMPT_COMMAND='build_mah_prompt'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export BASH_SILENCE_DEPRECATION_WARNING=1
