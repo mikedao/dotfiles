@@ -13,3 +13,5 @@
 2019/9/21 - Stripped things down, added weather.
 
 2020/6/18 - Added bash deprecation warning removal to bash profile. Reformatted dates in README.
+
+2020/6/22 - Adds Karabiner-elements json file to control custom capslock behavior.
