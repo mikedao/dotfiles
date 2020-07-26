@@ -1,5 +1,7 @@
 ## Mah dotfiles.
 
+2020/7/06 - Swaps out `hp` to do a `git push heroku main` instead of `git push heroku master`
+
 2020/7/23 - Replaces grep with ag for ctrlp to speed it up in vim. I also made some other changes for new computer I do not remember.
 
 2020/6/22 - Adds Karabiner-elements json file to control custom capslock behavior.
