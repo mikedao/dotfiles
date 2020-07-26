@@ -55,7 +55,7 @@ alias bert="bundle exec rake test"
 
 # Heroku Aliases
 alias hc="heroku create"
-alias hp="git push heroku master"
+alias hp="git push heroku main"
 alias ho="heroku open"
 
 # Tmux aliases
