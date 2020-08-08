@@ -1,4 +1,6 @@
 ## Mah dotfiles.
+2020/08/07 - Improves TMux/vin integration
+
 2020/08/07 - Relearning tmux so I'm rebuilding my configs.
 
 2020/07/06 - Swaps out `hp` to do a `git push heroku main` instead of `git push heroku master`
