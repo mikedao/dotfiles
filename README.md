@@ -1,5 +1,8 @@
 ## Mah dotfiles.
-2020/08/07 - Improves TMux/vin integration
+
+2022/04/06 - Adds a .zshrc file
+
+2020/08/07 - Improves TMux/vim integration
 
 2020/08/07 - Relearning tmux so I'm rebuilding my configs.
 
