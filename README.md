@@ -1,5 +1,7 @@
 ## Mah dotfiles.
 
+2023/05/17 - removes some oudated stuff
+
 2022/04/06 - Adds a .zshrc file
 
 2020/08/07 - Improves TMux/vim integration
